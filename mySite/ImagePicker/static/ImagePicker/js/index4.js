@@ -20,10 +20,7 @@ $(document).ready(function() {
     var heading = $( "#heading-cell" ).html()
     var pitch = $( "#pitch-cell" ).html()
 
-
-
-
-    var url_saveImage = 'save_image/' + latitude + '/' + longitude + '/' + heading + '/' + pitch + '/';
+    var url_saveImage = '/ImagePicker/save_image/' + latitude + '/' + longitude + '/' + heading + '/' + pitch + '/';
 
     url_saveImage = url_saveImage.replace(' ', '');
 
